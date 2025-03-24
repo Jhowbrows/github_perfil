@@ -5,6 +5,28 @@
     font-family: sans-serif;
 }
 
+.contentCenter {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.inputStyle {
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #d7c5c5;
+    border-radius: 5px;
+
+    &:focus {
+        outline: none;
+        border-color: var(--corPrincipal);
+        box-shadow: 0 0 10px var(--corPrincipal);
+    }
+}
+
 .container {
     max-width: 960px;
     margin: 0 auto;
